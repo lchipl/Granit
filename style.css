@@ -99,7 +99,7 @@ color: rgba(41, 41, 41, 255);
 .header-section{
  grid-row:3/end;
  grid-column:1/end;
- background-image: url("img-components/шапка/лого/Слой10@1X.png"),url("img-components/шапка/лого/Прямоугольник5@1X.png");
+ background-image: url("img-components/header/лого/Слой10@1X.png"),url("img-components/header/лого/Прямоугольник5@1X.png");
  background-size: cover;
  display: grid;
  justify-content: start;
@@ -150,17 +150,61 @@ color: rgba(41, 41, 41, 255);
 
 
 
-
-
-
-
-
-
 .always-kinds{
   border-top:1px solid black;
-  background-color:green;
   grid-row:2/3;
+  display:grid;
 }
+
+.always-kinds h2{
+  justify-self:center;
+  font-size: 20pt;
+  color: rgba(41, 41, 41, 255);
+}
+.always-kinds ul{
+  margin-top: 20px;
+  margin-left:100px;
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.always-kinds li{
+  width: 470px;
+  height:300px;
+}
+.always-kinds p{
+  margin-top:19px;
+  width: 225px;
+  height:59px;
+}
+.always-kinds img{
+  width:254px;
+  height:145px;
+}
+.always-kinds ul h3{
+  margin-top: 29px;
+}
+.always-kinds button{
+  margin-top: 32px;
+  background-color:#FFD200;
+  border:none;
+  cursor: pointer;
+  width:180px;
+  height:50px;
+  font-size: 12pt;
+  color: rgba(13, 13, 13, 255);
+  font-family: ﻿GothamPro-Medium, ﻿AdobeInvisFont, ﻿MyriadPro-Regular;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 .advantages{
   border-top:1px solid black;
