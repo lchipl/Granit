@@ -123,11 +123,21 @@ color: rgba(41, 41, 41, 255);
   color: rgba(255, 255, 255, 255);
 }
 
+
+.header-section p{
+  width:240px;
+  height:54px;
+  margin-top:40px;
+}
+
+
 .header-section a{
   text-decoration: underline;
+  margin-left:35px;
 }
 
 .header-section button{
+  margin-top:65px;
   width: 200px;
   height: 50px;
   background-color: #FFD200;
