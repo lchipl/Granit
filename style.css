@@ -1,0 +1,182 @@
+*{
+  margin:0px;
+  padding:0px;
+  list-style: none;
+  text-decoration: none;
+  color:black;
+}
+
+.grid{
+  display: grid;
+  grid-template-rows: 675px 714px 490px 600px 490px 520px 196px;
+}
+
+.header{
+  grid-row: 1/2;
+  display: grid;
+  grid-template-columns: 4fr minmax(200px,940px) 4fr;
+  grid-template-rows: 100px 30px 30px 1fr;
+}
+
+.header-header{
+  display:grid;
+  grid-row:1/3;
+  grid-column:1/end;
+  grid-template-columns: 4fr minmax(200px,470px) 235px 235px  4fr;
+}
+.label-header{
+ grid-column:2/span 1;
+ margin-top:36px;
+}
+.label-header img{
+  float: left;
+  margin-right: 14px;
+}
+.label-header p{
+  font-size: 11pt;
+  color: rgba(150, 150, 150, 255);
+}
+.label-header h2{
+font-size: 20pt;
+color: rgba(41, 41, 41, 255);
+}
+.number-header{
+  display: grid;
+  grid-column:3/span 1;
+  justify-items: end;
+
+}
+.number-header h2{
+  font-size: 18pt;
+  color: rgba(41, 41, 41, 255);
+  align-self: end;
+}
+.number-header p{
+  font-size: 11pt;
+  color: rgba(150, 150, 150, 255);
+}
+
+.header-header button{
+  width:160px;
+  height:40px;
+  font-size: 12pt;
+  color: rgba(41, 41, 41, 255);
+  background-color:white;
+  cursor: pointer;
+  justify-self:end;
+  align-self:end;
+  margin-bottom: 45px;
+}
+
+
+
+.navigation{
+  display: grid;
+  grid-row:2/4;
+  grid-column:2/3;
+  z-index:4;
+  background-color:#ffcc00;
+}
+.nav-ul{
+  display: grid;
+  grid-template-columns: repeat(5,1fr) auto;
+  grid-column-gap:1fr;
+  align-items:center;
+  margin-left:60px;
+  margin-right:60px;
+
+
+}
+.nav-ul li{
+  font-size: 14pt;
+  color: rgba(0, 0, 0, 255);
+}
+.nav-ul li:hover{
+  opacity: 0.5;
+  background-color:#ffcc00;
+}
+
+.header-section{
+ grid-row:3/end;
+ grid-column:1/end;
+ background-image: url("img-components/шапка/лого/Слой10@1X.png"),url("img-components/шапка/лого/Прямоугольник5@1X.png");
+ background-size: cover;
+ display: grid;
+ justify-content: start;
+ grid-template-columns: 1fr minmax(200px,940px) 1fr;
+
+}
+
+.header-section-s{
+ grid-column: 2/4
+}
+
+.header-section h2{
+  font-size: 36pt;
+  color: rgba(255, 255, 255, 255);
+  margin-top: 140px;
+
+}
+
+.header-section p, .header-section a{
+  font-size: 14pt;
+  color: rgba(255, 255, 255, 255);
+}
+
+.header-section a{
+  text-decoration: underline;
+}
+
+.header-section button{
+  width: 200px;
+  height: 50px;
+  background-color: #FFD200;
+  border:none;
+  cursor: pointer;
+  font-size: 12pt;
+  color: rgba(13, 13, 13, 255);
+}
+
+
+
+
+
+
+
+
+
+
+.always-kinds{
+  border-top:1px solid black;
+  background-color:green;
+  grid-row:2/3;
+}
+
+.advantages{
+  border-top:1px solid black;
+  background-color:green;
+  grid-row:3/4;
+}
+
+
+.popular{
+   border-top:1px solid black;
+   grid-row:4/5;
+}
+
+.services{
+    border-top:1px solid black;
+    background-color:green;
+    grid-row:5/6;
+}
+
+.map{
+    border-top:1px solid black;
+    grid-row:6/7;
+}
+
+.main-footer{
+    border-top:1px solid black;
+    background-color:green;
+    grid-row:7/8;
+}
